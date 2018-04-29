@@ -1,0 +1,14 @@
+uuid: 8f42ad12-0c0b-4e97-ae7a-a7b84d0c7676
+name: comarmitte
+mail: mnsoft31@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
