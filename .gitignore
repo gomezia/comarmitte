@@ -34,3 +34,63 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+# ------------------
+# OS generated files
+# ------------------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+
+
+# ------------------------
+# Always-ignore extensions
+# ------------------------
+
+*.zip
+*.tar
+*.gz
+*.log
+*.orig
+*.diff
+*.err
+*.out
+*.swp
+*.bak
+*.tmp
+*~
+
+# --------
+# Frontend
+# --------
+
+# Node
+node_modules
+themes/*/.sass-cache/
+
+# Bower
+bower_components
+
+# -------------------
+# IDE generated files
+# -------------------
+
+# Sublime Text
+*.sublime-*
+sftp-config.json
+
+# PhpStorm
+.idea
+
+# Netbeans
+nbproject
+
+# Eclipse
+.settings
+.buildpath
+.project
+.metadata
