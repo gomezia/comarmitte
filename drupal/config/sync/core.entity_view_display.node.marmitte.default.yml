@@ -1,0 +1,50 @@
+uuid: 217ead08-2806-444f-b362-b5f28f4b3c62
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.marmitte.body
+    - field.field.node.marmitte.field_image
+    - field.field.node.marmitte.field_prix
+    - node.type.marmitte
+  module:
+    - image
+    - text
+    - user
+id: node.marmitte.default
+targetEntityType: node
+bundle: marmitte
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prix:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

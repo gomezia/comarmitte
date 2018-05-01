@@ -1,0 +1,29 @@
+uuid: 7dd47450-3bd4-4aec-b53e-8810cca3f236
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.marmitte.body
+    - node.type.marmitte
+  module:
+    - text
+    - user
+id: node.marmitte.teaser
+targetEntityType: node
+bundle: marmitte
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

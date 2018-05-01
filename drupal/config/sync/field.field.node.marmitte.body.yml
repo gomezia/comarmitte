@@ -1,0 +1,22 @@
+uuid: cf313d30-3375-4470-a1e6-90be270972b8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.marmitte
+  module:
+    - text
+id: node.marmitte.body
+field_name: body
+entity_type: node
+bundle: marmitte
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

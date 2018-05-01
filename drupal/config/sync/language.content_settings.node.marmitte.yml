@@ -1,0 +1,11 @@
+uuid: efe70d06-1bcf-4a00-91ae-8f4fe2c4214e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.marmitte
+id: node.marmitte
+target_entity_type_id: node
+target_bundle: marmitte
+default_langcode: site_default
+language_alterable: false
